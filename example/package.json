@@ -1,0 +1,35 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://reactions.github.io/fetch/",
+  "dependencies": {
+    "@reactions/component": "^2.0.2",
+    "@reactions/fetch": "^0.0.0",
+    "react": "^16.4.0-alpha.0911da3",
+    "react-dom": "^16.4.0-alpha.0911da3",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.18.2",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.11.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
