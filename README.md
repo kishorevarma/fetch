@@ -67,8 +67,8 @@ Optimistically updating a path.
           {item.title}{" "}
           <button
             onClick={async () => {
-              set(items.filter(alleged => alleged.id !== item.id));
-              const res = await fetch(`/todos/${item.id}`, {
+              set("/projects", items.filter(alleged => alleged.id !== item.id));
+              const res = await fetch(`/projects/${item.id}`, {
                 method: "delete"
               });
               if (!res.ok) {
