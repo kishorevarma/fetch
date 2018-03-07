@@ -48,7 +48,7 @@ const Component = ReactionsFetch;
 Reading and invalidating a path:
 
 ```jsx
-<Fetch path="https://api.gitub.com/gists">
+<Fetch url="https://api.gitub.com/gists">
   {({ data, invalidate }) => (
     <div>
       <button onClick={invalidate}>Refresh</button>
@@ -61,7 +61,7 @@ Reading and invalidating a path:
 Optimistically updating a path.
 
 ```jsx
-<Fetch path="/projects">
+<Fetch url="/projects">
   {({ data, set, invalidate }) => (
     <ul>
       {data.map(item => (
