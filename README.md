@@ -8,6 +8,8 @@ Ayyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 
 So this is totally experimental. The React API's this component uses are unstable and will change. We’re all still learning what they even mean! But that doesn't mean we can't play around with them and figure out how to make them even better. So come along, but beware!
 
+Also, this may totally not be at all what React has in mind for these APIs, so don't get too excited, just have some fun.
+
 ## Installation
 
 ```bash
